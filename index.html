@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Erie Canal Corridor — Healthcare &amp; Industry Through Time</title>
+
+  <!-- Mapbox GL JS v2 — stable API, mercator projection default -->
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ── Top navigation bar ───────────────────────────────────────── -->
+  <nav id="top-nav">
+    <span id="app-title">Erie Canal Corridor</span>
+    <div id="tabs" role="tablist">
+      <button class="tab-btn active" data-mode="industry"  role="tab" aria-selected="true">Industry</button>
+      <button class="tab-btn"        data-mode="healthcare" role="tab" aria-selected="false">Healthcare</button>
+      <button class="tab-btn"        data-mode="casestudy"  role="tab" aria-selected="false">Case Study</button>
+    </div>
+  </nav>
+
+  <!-- ── Story chapter sidebar ───────────────────────────────────── -->
+  <aside id="story-panel" aria-label="Story chapters">
+    <div id="story-header">
+      <p class="story-kicker">Erie Canal Corridor Story Map</p>
+      <h1>Industry, healthcare, and community along the canal</h1>
+      <p>Click the button to move through three map chapters: industry, healthcare, and Rochester.</p>
+    </div>
+
+    <section id="story-card" class="story-card active">
+      <h2 id="story-card-title">A corridor of change</h2>
+      <p id="story-card-copy">The Erie Canal shaped upstate New York, connecting towns, farms, and factories. On this map the blue canal line is the backbone, while historic industry sites show how the corridor powered economic growth.</p>
+      <button id="story-cycle-btn" class="story-btn">Show healthcare</button>
+    </section>
+  </aside>
+
+  <!-- ── Full-screen map canvas ───────────────────────────────────── -->
+  <div id="map" role="application" aria-label="Erie Canal corridor map"></div>
+
+  <!-- ── Healthcare-only: choropleth field toggle ─────────────────── -->
+  <div id="healthcare-controls" class="map-overlay hidden" aria-label="Choropleth controls">
+    <label for="choropleth-field">Shade by</label>
+    <select id="choropleth-field">
+      <option value="median_age">Median Age</option>
+      <option value="median_income">Median Income</option>
+      <option value="population_density">Population Density</option>
+    </select>
+  </div>
+
+  <!-- ── Case Study: fixed city header ────────────────────────────── -->
+  <div id="casestudy-controls" class="map-overlay hidden" aria-label="Case study">
+    <div id="casestudy-city-name">Rochester, NY</div>
+    <div id="casestudy-subtitle">Monroe County &mdash; Industry &amp; Healthcare</div>
+  </div>
+
+  <!-- ── Case Study: live stats card ──────────────────────────────── -->
+  <div id="casestudy-stats" class="map-overlay hidden" aria-label="City statistics">
+    <div class="stat-row">
+      <span class="stat-label">Industry active in <span id="stat-year">—</span></span>
+      <span id="stat-industry" class="stat-value">—</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-label">Healthcare facilities</span>
+      <span id="stat-healthcare" class="stat-value">—</span>
+    </div>
+  </div>
+
+  <!-- ── Case Study: zoom explanation label ───────────────────────── -->
+  <div id="casestudy-zoom-label" class="map-overlay hidden" aria-label="Zoom explanation">
+    <span id="zoom-explanation-text">Zooming to Rochester Flouring Mill</span>
+  </div>
+
+  <!-- ── Map legend ───────────────────────────────────────────────── -->
+  <div id="legend" class="map-overlay" aria-label="Map legend"></div>
+
+  <!-- ── Timeline slider ──────────────────────────────────────────── -->
+  <div id="timeline-panel" role="region" aria-label="Timeline filter">
+    <div id="timeline-header">
+      <span class="timeline-end-label">1820</span>
+      <div id="year-display-wrap">
+        <span id="current-year-display">1920</span>
+      </div>
+      <span class="timeline-end-label">2024</span>
+    </div>
+    <input
+      type="range"
+      id="timeline-slider"
+      min="1820" max="2024" value="1920" step="1"
+      aria-label="Select year"
+    />
+  </div>
+
+  <!-- ── Hover tooltip ────────────────────────────────────────────── -->
+  <div id="tooltip" class="hidden" role="tooltip"></div>
+
+  <!-- ── Draggable detail panel (click on feature) ────────────────── -->
+  <div id="detail-panel" class="hidden" role="dialog" aria-modal="false" aria-labelledby="detail-panel-title">
+    <div id="detail-panel-header">
+      <span id="detail-panel-title">Details</span>
+      <button id="detail-panel-close" aria-label="Close panel">✕</button>
+    </div>
+    <div id="detail-panel-content"></div>
+  </div>
+
+  <!-- ── Data error / missing-file overlay ────────────────────────── -->
+  <div id="data-banner" class="hidden" role="alert"></div>
+
+  <!-- Dependencies -->
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+  <!-- PapaParse: zero-dependency CSV parser -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
