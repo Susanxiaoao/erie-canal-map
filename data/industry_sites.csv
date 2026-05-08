@@ -1,0 +1,31 @@
+site_name,industry_type,town,latitude,longitude,active_start_year,active_end_year,description
+Burden Iron Works,ironworks,Troy,42.7237,-73.6832,1809,1940,Major iron manufacturing complex famous for horseshoe production. The 60-foot Burden Water Wheel (1851) was once the largest in the world.
+Albany Iron Works,ironworks,Albany,42.6512,-73.7487,1844,1903,"Produced the ironwork for the dome of the U.S. Capitol. A major employer in the canal era, with 2,000 workers at peak."
+Rome Brass & Copper,ironworks,Rome,43.2128,-75.4554,1865,1986,Brass and copper rod mills; later Revere Copper and Brass. A center of U.S. copper processing until plant closure in 1986 when operations consolidated elsewhere.
+Cohoes Company Mills,textiles,Cohoes,42.7748,-73.7127,1831,1937,"One of the largest cotton textile mill complexes in America, powered by Cohoes Falls. Company assets were sold after sustained losses by 1932; operations ceased entirely by 1937."
+Utica Steam Cotton Mills,textiles,Utica,43.1009,-75.2326,1847,1952,Major textile manufacturer that helped establish Utica as a leading center of knit goods production.
+Oriskany Cotton Mills,textiles,Oriskany,43.1573,-75.3399,1837,1902,Early textile mill on Oriskany Creek utilizing water power to produce cotton cloth for regional markets.
+Amsterdam Carpet Mills,textiles,Amsterdam,42.9386,-74.1887,1835,1968,"Amsterdam became the carpet capital of the United States. Manufacturing ended in 1968 as companies moved south for lower labor costs, leaving behind obsolete machinery and vacant mill buildings."
+Schenectady Knitting Mills,textiles,Schenectady,42.8142,-73.9395,1858,1930,Produced hosiery and knit goods distributed throughout the Northeast via canal and rail networks.
+Rochester Flouring Mills,milling,Rochester,43.1566,-77.6088,1820,1878,"Rochester's Genesee River mills made the city the 'Flour City' of America in the 1830s–1840s, processing wheat from western farms."
+Seneca Mill,milling,Seneca Falls,42.9109,-76.7997,1844,1910,"Flour mill central to the agricultural economy of Seneca County, supplying markets via the Cayuga–Seneca side canal."
+Herkimer Grist Mill,milling,Herkimer,43.0268,-74.9885,1790,1870,"One of the oldest mills in the Mohawk Valley, serving farming communities before and after canal construction."
+Palmyra Flour Mill,milling,Palmyra,43.0617,-77.2335,1826,1890,Canalside grain mill processing Wayne County wheat for eastern markets.
+Black Rock Canal Terminal,shipping,Buffalo,42.9281,-78.894,1825,1900,"Western terminus of the Erie Canal at Lake Erie, handling grain, lumber, and manufactured goods from the Great Lakes."
+Albany Basin,shipping,Albany,42.6479,-73.7572,1825,1917,"Eastern terminus and transfer hub between the Erie Canal and Hudson River sloops. At peak, 30,000+ boat passages per year."
+Schenectady Canal Docks,shipping,Schenectady,42.8142,-73.9462,1825,1880,Major inland canal port serving as a freight transfer point between the Mohawk Valley and Albany.
+Utica Canal Harbor,shipping,Utica,43.1009,-75.25,1825,1875,"Central New York canal hub handling salt, textiles, and agricultural goods for the regional economy."
+Cayuga–Seneca Canal Operations,shipping,Cayuga,42.9171,-76.7356,1828,1880,"Side canal connecting the Finger Lakes region to the main Erie Canal, enabling wine, salt, and grain exports."
+Remington Arms Factory,manufacturing,Ilion,43.0148,-74.9892,1816,2024,"One of America's oldest firearms manufacturers, founded by Eliphalet Remington. After 200+ years and multiple bankruptcies, the Ilion plant permanently closed in March 2024 when operations relocated to Georgia."
+General Electric Schenectady Works,manufacturing,Schenectady,42.8173,-73.935,1886,1990,"Edison Machine Works, later General Electric. At its peak employed over 40,000 workers making turbines, generators, and locomotives. Mass layoffs in the 1980s–90s reduced the workforce to a fraction; major campus operations closed by 1990."
+Niagara Falls Power Company,manufacturing,Niagara Falls,43.0962,-79.0377,1895,1961,"First commercial AC power transmission plant, designed by Tesla and Westinghouse. Unlocked large-scale electrochemical industry."
+Eastman Kodak Company,manufacturing,Rochester,43.1566,-77.5965,1892,2012,George Eastman's film and camera empire transformed photography into a mass consumer product and dominated global film markets for a century.
+Bausch & Lomb Optical,manufacturing,Rochester,43.1566,-77.6088,1853,,"Founded by John Bausch and Henry Lomb; grew from a small optical shop into a major manufacturer of lenses, telescopes, and medical devices."
+Onondaga Salt Works,manufacturing,Syracuse,43.0481,-76.1474,1797,1926,"The 'Salt City' salt works that drove Syracuse's early economy. At peak produced 9 million bushels per year, shipped via canal."
+Fort Plain Paper Mill,manufacturing,Fort Plain,42.9337,-74.6188,1836,1915,Mohawk Valley paper mill utilizing abundant water power and wood pulp from Adirondack forests.
+Buffalo Brewing Company,manufacturing,Buffalo,42.8864,-78.86,1890,1956,"One of several large lager breweries established in Buffalo, supplied by grain arriving via the Erie Canal and Great Lakes shipping."
+Medina Sandstone Quarries,mining,Medina,43.219,-78.3865,1820,1950,Distinctive red sandstone quarried extensively for buildings across the U.S. and Canada; shipped via canal to construction sites.
+Lockport Limestone Quarries,mining,Lockport,43.1706,-78.6904,1825,1900,Limestone excavated during construction of the famous Lockport flight of five double locks; continued as a building stone supply after.
+Oneida Community Silverware,commerce,Oneida,43.0878,-75.659,1848,2005,"Utopian community that evolved into Oneida Ltd., once one of the world's largest silverware producers. U.S. manufacturing ended in January 2005 when production moved offshore; the brand was later acquired by Lenox in 2021."
+Palmyra Warehouse District,commerce,Palmyra,43.0617,-77.23,1825,1890,"Canalside merchant warehouses that prospered during the height of Erie Canal commerce, supplying local and regional goods."
+Syracuse & Utica Rail Terminus,commerce,Syracuse,43.0481,-76.145,1839,1870,Early railroad terminal connecting canal freight to emerging rail networks — symbol of the transition from water to rail.
