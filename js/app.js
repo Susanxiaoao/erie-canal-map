@@ -8,7 +8,7 @@
 // ── 1. Configuration ─────────────────────────────────────────────────────────
 
 const CONFIG = {
-  token:  'YOUR_MAPBOX_TOKEN_HERE',  // Get from https://account.mapbox.com/access-tokens/
+  token:  'pk.eyJ1Ijoic3N4bXkzMTYiLCJhIjoiY21vMmxzazJzMHZmNzJvcWEydWtzNXV5ZSJ9.OdqfxorKVhGtPdP1kVkTqA',
   style:  'mapbox://styles/mapbox/light-v11',
   center: [-76.1, 43.05],   // geographic center of Erie Canal corridor
   zoom:   7,
